@@ -1,0 +1,25 @@
+{
+	"name": "algorithms",
+	"version": "1.0.0",
+	"description": "A collection of several algorithms",
+	"main": "FizzBuzz.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/k4st01C/Algorithms.git"
+	},
+	"keywords": [
+		"algorithm"
+	],
+	"author": "Kemal Aydık",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/k4st01C/Algorithms/issues"
+	},
+	"homepage": "https://github.com/k4st01C/Algorithms#readme",
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
+}
