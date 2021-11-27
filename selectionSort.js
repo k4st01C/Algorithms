@@ -5,12 +5,12 @@ function swap(arr, i, j) {
 }
 
 function selectionSort(arr) {
-	let minIdx = 0;
 	for (let i = 0; i < arr.length; i++) {
+		let minIdx = i;
 		for (let j = i + 1; j < arr.length; j++) {
-			minIdx = arr[j] < arr[minIdx] ? j : minIdx;
+			arr[j] < arr[minIdx] && (minIdx = j);
 		}
-		swap(arr, minIdx, i);
+		if (i !== minIdx) swap(arr, minIdx, i);
 	}
 	return arr;
 }
