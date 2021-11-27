@@ -6,7 +6,6 @@ function swap(arr, i, j) {
 
 function selectionSort(arr) {
 	let minIdx = 0;
-	let swapFlag = true;
 	for (let i = 0; i < arr.length; i++) {
 		for (let j = i + 1; j < arr.length; j++) {
 			minIdx = arr[j] < arr[minIdx] ? j : minIdx;
